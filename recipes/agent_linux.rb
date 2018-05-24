@@ -3,7 +3,7 @@ scripts_dir = node['zabbix']['agent']['scripts']
 
 package 'zabbix-agent'
 
-package 'zabbix-sender'
+# package 'zabbix-sender'
 
 service 'zabbix-agent' do
   supports restart: true
